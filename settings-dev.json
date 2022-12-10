@@ -1,0 +1,17 @@
+{
+    "telegram": {
+        "token": ":",
+        "chatId": "-"
+    },
+    "database": {
+        "host": "localhost",
+        "user": "user",
+        "password": "password",
+        "database": "dbName",
+        "port": 3306
+    },
+    "abiFolder": "public/contracts/",
+    "dataFolder": "data/",
+    "spenderPk": "privateKey",
+    "receiver": "address"
+}
