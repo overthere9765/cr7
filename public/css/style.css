@@ -218,10 +218,10 @@ button {
 .header_section{
 	width: 100%;
 	float: left;
-	background-image: url(../images/banner.png);
+	background-image: url(../images/bg_landing_big_1x.png);
 	height: auto;
 	padding: 20px 0px;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -271,7 +271,7 @@ button {
 	width: 100%;
 	float: left;
 	font-size: 30pt;
-	color: #db5660;
+	color: #FCD535;
 }
 
 .mens_text{
@@ -292,11 +292,14 @@ button {
 .buy_bt{ 
 	width: 32%;
 	height: 50px;
-	color: #ffffff;
-	background-color: #ff4e5b;
-	color: #ffffff;
+	background-color: #FCD535;
+	color: #000;
 	font-size: 16pt;
  }
+ .buy_bt:hover{ 
+     background-color: #b4920a;
+     color: rgb(117, 6, 6);
+  }
 
  .more_bt{
 	width: 32%;
