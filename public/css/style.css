@@ -43,6 +43,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     background: #0b0e11;
 }
 
 a {
@@ -368,8 +369,7 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
-    
+    margin-bottom: 5px;    
 }
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
@@ -381,14 +381,14 @@ body{
 	width: 100%;
 	float: left;
 	font-size: 24pt;
-	color: #0c0116;
+	color: #fefefe;
 }
 
 .consectetur_text{
 	width: 100%;
 	float: left;
 	font-size: 14pt;
-	color: #0c0116;
+	color: #fefefe;
 	font-weight: 400;
 	margin-left: 0px;
     padding-bottom: 30px;
@@ -402,7 +402,7 @@ body{
 .about-img {
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: #0b0e11;
     height: auto;
     margin-left: 64px;
     box-shadow: 0px 0px 10px 0px;
@@ -412,19 +412,19 @@ body{
 .new_bt{
 	width: 18%;
 	float: left;
-	background-color: #000;
+	background-color: #01010147;
 	font-size: 14pt;
 	text-align: center;
-	color: #ffffff;
+	color: #ffbb0d;
 	height: 50px;
 	margin-left: -60px;
+    position: absolute;
 }
 
 .shoes-img{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 40px;
 	padding-bottom: 40px;
 	margin: 0px;
 }
@@ -434,7 +434,7 @@ body{
     text-align: center;
     padding-top: 30px;
     font-size: 16pt;
-    color: #0c0116;
+    color: #fefefe;
     border-bottom: 1px solid#000;
     margin: 0 auto;
 }
@@ -452,7 +452,6 @@ body{
 .about-img2{
 	width: 100%;
 	float: left;
-	background-image: url(../images/about-img2.png);
 	height: auto;
 	box-shadow: 0px 0px 10px 0px;
 	margin-left: -50px;
@@ -460,13 +459,13 @@ body{
 }
 
 
-.shoes_img{ width: 100%; float: left; padding-top: 30px; }
+.shoes_img{ width: 100%; float: left;  }
 
 .shoes-img2{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 	padding-bottom: 40px;
 	margin: 0px
 }
@@ -486,7 +485,7 @@ body{
 .racing_shoes {
     width: 100%;
     float: left;
-    background-color: #eae7e7;
+    background-color: #0b0e11;
     height: auto;
     padding-top: 70px;
     background-size: 100%;
@@ -526,7 +525,7 @@ body{
 	width: 50%;
 	height: 50px;
 	color: #ffffff;
-	background-color: #ff4e5b;
+	background-color: #0b0e11;
 	color: #ffffff;
 	font-size: 16pt;	
 	margin-top: 35px;
@@ -535,7 +534,7 @@ body{
 .gallery_section{
 	width: 100%;
 	float: left;
-	background-color: #ff4e5b;
+	background-color: #0b0e11;
 	height: auto;
 
 }
@@ -545,7 +544,6 @@ body{
     float: left;
     background-color: #ffffff;
     height: auto;
-    padding: 20px 20px 20px 0px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -577,7 +575,7 @@ body{
 }
 .left_part ul{ margin: 0px; padding: 0px; }
 .left_part li{ float: left; padding-left: 10px; }
-.right_part{ width: 40%; float: left; }
+.right_part{ width: 40%; float: left; padding-right: 10px; }
 .shoes_price{ 
 	width: 100%; 
 	float: left; 

@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import NewCollection from "./com/NewCollection";
 import OneCollection from "./com/OneCollection";
 import Products from "./com/Products";
-import Carousel from "./com/Carousel";
 
 
 class App extends React.Component {
@@ -24,6 +23,7 @@ class App extends React.Component {
         <NewCollection />
         <OneCollection />
         <Products />
+
         <ToastContainer
           position="top-left"
           autoClose={5000}

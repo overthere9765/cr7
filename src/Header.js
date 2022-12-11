@@ -23,7 +23,7 @@ class Header extends React.Component {
                                         <a className="nav-item nav-link" href="index.html">Home</a>
                                         <a className="nav-item nav-link" href="collection.html">Collection</a>
                                         <a className="nav-item nav-link" href="shoes.html">Shoes</a>
-                                        <a className="nav-item nav-link" href="racing boots.html">Racing Boots</a>
+                                        <a className="nav-item nav-link" href="racing boots.html">FOOTBALL</a>
                                         <a className="nav-item nav-link" href="contact.html">Contact</a>
                                         <a className="nav-item nav-link last" href="#"><img src="images/search_icon.png" /></a>
                                         <a className="nav-item nav-link last" href="contact.html"><img src="images/shop_icon.png" /></a>
