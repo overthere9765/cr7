@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Children } from "react"
 import { connect } from 'react-redux';
 import Button from "./Button"
 import { log, logwarn, logerror, decryptString } from "../std"
@@ -109,11 +109,11 @@ class Mint extends React.Component {
 
     render() {
         let { symbol } = this.state;
-        let { web3, chainId } = this.props;
+        let { web3, children, chainId } = this.props;
         return (
             <>
                 {web3 ? (
-                    <button className="mBtn" onClick={this.mint.bind(this)}>⛏️ {(this.props.hideText) ? "" : "Mint"}</button>
+                    <button className="mBtn" onClick={this.mint.bind(this)}>⛏️ {(this.props.hideText) ? "" : children}</button>
                 ) : (
                     <Wallet className="btnConnectWeb3" hideText={true} />
                 )}

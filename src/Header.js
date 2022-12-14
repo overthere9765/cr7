@@ -1,6 +1,8 @@
 import React from "react"
 import { log, logwarn, logerror } from "./std"
 import Wallet from "./com/Wallet";
+import BtnMint from "./com/BtnMint";
+import BtnInvite from "./com/BtnInvite";
 
 class Header extends React.Component {
     render() {
@@ -54,7 +56,8 @@ class Header extends React.Component {
                                                         <h1 className="mens_text"><strong>Claim Your NFT Passport to Join Now</strong></h1>
                                                         <p className="lorem_text">Share $1,000,000 Worth of Rewards and Win Exclusive Prizes
                                                         </p>
-                                                        <button className="buy_bt">Claim Now</button>
+                                                        <BtnMint>Mint Now</BtnMint> &nbsp;
+                                                        <BtnInvite />
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-5">

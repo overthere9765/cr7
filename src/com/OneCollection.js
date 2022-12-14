@@ -27,7 +27,7 @@ class OneCollection extends React.Component {
                                     <br />
                                     {/* <div className="number_text"><strong>$ <span style={{ color: "#FEFEFE" }}>100</span></strong></div> */}
                                     {/* <button className="seemore">MINT</button> */}
-                                    <Mint />
+                                    <Mint>Mint</Mint>
                                 </div>
                             </div>
                         </div>

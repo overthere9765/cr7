@@ -930,15 +930,16 @@ a:hover {
 /* custom  */
 /* button */
 .mBtn {
+    font-size: 18px;
     padding: 3px 10px;
     border-radius: 10px;
-    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    background-image: linear-gradient(135deg, #FCCF31 10%, #F55555 100%);
 }
 
 .mBtn:hover {
-    background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+    background-image: linear-gradient(135deg, #FD6E6A 10%, #FFC600 100%);
 }
 
 .mBtn:active {
-    background-image: linear-gradient( 135deg, #FFE985 10%, #FA742B 100%);
+    background-image: linear-gradient(135deg, #FFE985 10%, #FA742B 100%);
 }

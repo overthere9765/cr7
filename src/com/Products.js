@@ -16,8 +16,8 @@ class Products extends React.Component {
                 <div className="layout_padding gallery_section">
                     <div className="container">
                         <div className="row">
-                            {shoes.map(v => (
-                                <div className="col-sm-4">
+                            {shoes.map((v, i) => (
+                                <div className="col-sm-4" key={i}>
                                     <div className="best_shoes">
                                         <div className="shoes_icon"><img src={v.src} /></div>
                                         <div className="star_text">
@@ -29,7 +29,7 @@ class Products extends React.Component {
                                                     <li><a><img src="images/star-icon.png" /></a></li>
                                                     <li><a><img src="images/star-icon.png" /></a></li>
                                                     <li><a><img src="images/star-icon.png" /></a></li>
-                                                </ul> &nbsp;&nbsp;<Mint /> 
+                                                </ul> &nbsp;&nbsp;<Mint />
                                             </div>
                                             <div className="right_part">
                                                 <div className="shoes_price"><span style={{ "color": "#ffc107" }}>0.9$</span></div>
