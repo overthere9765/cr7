@@ -28,12 +28,11 @@ class NewCollection extends React.Component {
                                     </div>
                                 </div>
                                 {/* <button className="seemore_bt">See More</button> */}
-                                <img src="images/logowc2022.png" style={{ width: 200 }} />
 
                             </div>
                             <div className="col-md-6">
                                 <div className="about-img2">
-                                    <div className="shoes-img2"><img src="images/common-nft.png" /></div>
+                                    <div className="shoes-img2"><img src="images/common-nft.png"  style={{"borderRadius": "30px"}}/></div>
                                     <p className="sport_text">Men Sports</p>
                                     <Mint />
                                     {/* <div className="dolar_text">$<strong style={{ "color": "#f12a47" }}>90</strong> </div> */}

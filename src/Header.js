@@ -9,7 +9,7 @@ class Header extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-3">
-                            <div className="logo"><a href="#"><img src="images/logo.png" /></a></div>
+                            <div className="logo"><a href="/"><img src="images/logo.png" /></a></div>
                         </div>
                         <div className="col-sm-9">
                             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,13 +20,8 @@ class Header extends React.Component {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div className="navbar-nav">
-                                        <a className="nav-item nav-link" href="index.html">Home</a>
-                                        <a className="nav-item nav-link" href="collection.html">Collection</a>
-                                        <a className="nav-item nav-link" href="shoes.html">Shoes</a>
-                                        <a className="nav-item nav-link" href="racing boots.html">FOOTBALL</a>
-                                        <a className="nav-item nav-link" href="contact.html">Contact</a>
-                                        <a className="nav-item nav-link last" href="#"><img src="images/search_icon.png" /></a>
-                                        <a className="nav-item nav-link last" href="contact.html"><img src="images/shop_icon.png" /></a>
+                                        {/* <a className="nav-item nav-link" href="index.html">Home</a> */}
+                                        <Wallet />
                                     </div>
                                 </div>
                             </nav>
@@ -47,7 +42,7 @@ class Header extends React.Component {
 
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <div className="row">
+                                            <div className="row justify-content-center">
                                                 {/* <div className="col-sm-2 padding_0">
                                                     <p className="mens_taital">Men Shoes</p>
                                                     <div className="page_no">0/2</div>

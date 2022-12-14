@@ -9,8 +9,7 @@ class Products extends React.Component {
                 <div className="collection_section layout_padding">
                     <div className="container">
                         <h1 className="new_text"><strong>New Arrivals Products</strong></h1>
-                        <p className="consectetur_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <p className="consectetur_text"> </p>
                     </div>
                 </div>
 
@@ -25,24 +24,24 @@ class Products extends React.Component {
                                             <div className="left_part">
                                                 {/* <p className="best_text">#{v.id}</p> */}
                                                 <ul>
-                                                    <li><a href="#"><img src="images/star-icon.png" /></a></li>
-                                                    <li><a href="#"><img src="images/star-icon.png" /></a></li>
-                                                    <li><a href="#"><img src="images/star-icon.png" /></a></li>
-                                                    <li><a href="#"><img src="images/star-icon.png" /></a></li>
-                                                    <li><a href="#"><img src="images/star-icon.png" /></a></li>
-                                                </ul>
+                                                    <li><a><img src="images/star-icon.png" /></a></li>
+                                                    <li><a><img src="images/star-icon.png" /></a></li>
+                                                    <li><a><img src="images/star-icon.png" /></a></li>
+                                                    <li><a><img src="images/star-icon.png" /></a></li>
+                                                    <li><a><img src="images/star-icon.png" /></a></li>
+                                                </ul> &nbsp;&nbsp;<Mint /> 
                                             </div>
                                             <div className="right_part">
-                                                <div className="shoes_price"><span style={{ "color": "#ffc107" }}>{v.price}</span></div>
+                                                <div className="shoes_price"><span style={{ "color": "#ffc107" }}>0.9$</span></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             ))}
                         </div>
-                        <div className="buy_now_bt">
+                        {/* <div className="buy_now_bt">
                             <button className="buy_text">Buy Now</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

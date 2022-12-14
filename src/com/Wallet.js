@@ -12,6 +12,7 @@ class Wallet extends React.Component {
     state = {
         text: "Metamask"
     }
+
     componentDidMount() {
         if (!window.ethereum || !window.ethereum.isMetaMask) {
             this.setState({ text: "Install" })
@@ -50,11 +51,20 @@ class Wallet extends React.Component {
         let account = accounts.length > 0 ? "0x..." + accounts[0].substring(accounts[0].length - 3) : text;
         let icon = (accounts && accounts.length > 0 && chainId) ? CHAINS[chainId].icon : "metamask.svg";
         return (
-            <Button icon={"img/" + icon} onClick={this.connectWeb3.bind(this)} {...this.props}>{account} </Button>
+            <a className={this.props.className} onClick={this.connectWeb3.bind(this)} style={styles.wallet}>
+
+                <img src={"img/" + icon} style={{ "height": "24px" }} />
+                <span> {this.props.hideText ? "" : account}</span>
+
+            </a>
         )
     }
 }
-
+const styles = {
+    wallet: {
+        cursor: "pointer"
+    }
+}
 
 const mapStateToProps = (state, ownProps) => ({
     web3: state.web3Store.web3,
